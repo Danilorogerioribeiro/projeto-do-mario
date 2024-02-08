@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+
+.logo-principal {
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+button {
+    color: #ffff;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.mario-luigi {
+    height: 500px;
+
+}
+
+.imagem-do-mario {
+    width: 40px;
+
+}
+
+
+
+.img-paragrafo {
+    width: 100%;
+    
+}
+
+body {
+    height: 100vh;
+}
+
+
+.meu-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.cixa-mae {
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding: 100px;
+
+
+}
+
+.caixa-sonbra {
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    ;
+    position: fixed;
+    top: 0;
+}
+
+p {
+    width: 600px;
+    color: #ffff;
+}
+
+.img-watsap {
+    width: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.headr-mario {
+    height: 50px;
+
+}
+
+a {
+    color: #ffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.headr {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.headr a:hover {
+    color: #c51111;
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.formulario-fale-conosco {
+    background: #f1f1f7;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 7px;
+    transition: left 1s ease-in-out;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18D80f;
+}
+
+.mascara-formulario {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+
+ @media(max-width: 1100px){
+
+    p{display: none; }
+
+    .headr-mario{ 
+        display: none;
+    }
+
+    .cixa-mae{
+        flex-direction: column;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .img-paragrafo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .mario-luigi{
+        width: 80vw;
+        height: auto;
+        margin: 20px;
+        
+    }
+    .headr a {
+        margin: 10px;
+        font-size: 18px;
+        
+    
+    }
+    .headr{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .logo-principal{
+        margin-left: 0;
+    }
+    }
