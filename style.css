@@ -127,7 +127,7 @@ a {
     flex-direction: column;
     position: fixed;
     top: 30%;
-    left: -300px;
+    left:-295px;
     padding: 20px;
     border-radius: 7px;
     transition: left 1s ease-in-out;
