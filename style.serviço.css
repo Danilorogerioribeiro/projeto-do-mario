@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+}
+
+h1{
+    text-align: center;
+   
+}
+ img {
+    width: 250px;
+ }
+
+.primeira-linha{
+    display: flex;
+    flex-direction: column;
+}
+.segunda-linha{
+    display: flex;
+    flex-direction: column;
+    
+}
+.label-grande{
+    width: 270px;
+
+}
+.caixa-pricipal{
+   margin-left: 50px ;
+   margin-top: 50px;
+}
+.img-3{
+    margin-top: 50px;
+}
+h1{
+    margin-top: 20px;
+    font-weight: 600;
+    text-shadow: 3px 0 10px color #e9c3c3;
+}
+
+
+.label-img-3{
+    display: flex;
+    margin-bottom: 35px;
+}
